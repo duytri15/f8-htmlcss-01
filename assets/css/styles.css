@@ -40,16 +40,18 @@ a {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-/* Header */
-.header {
-    background-color: #e6f0ff;
-    height: 100vh;
-    position: relative;
+.fixed-header {
+    padding-top: 26px;
+    position: sticky;
+    z-index: 1;
+    top: -26px;
+    background-color:#e6f0ff ;
 }
+/* Header fixed */
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    padding: 12px 0;
 }
 .navbar ul {
     display: flex;
@@ -74,6 +76,11 @@ a {
     font-weight: 500;
     margin-right: 1.8rem;
 }
+.hero-wrap {
+    background-color: #e6f0ff;
+    height: 100vh;
+    position: relative;
+}
 .action-btn {
     padding: 1.3rem 1.6rem;
     border-radius: 0.8rem;
@@ -81,7 +88,7 @@ a {
 
 /* Hero */
 .hero {
-    margin-top: 130px;
+    padding-top: 130px;
 }
 .hero .info {
     width: 51%;
