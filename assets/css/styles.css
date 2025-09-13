@@ -138,7 +138,17 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 9.6rem;
+    margin-top: 70px;
+}
+.clients .image a {
+    display: flex;
+    align-items: center;
+    padding: 0 42px;
+    height: 90px;
+    border-radius: 12px;
+}
+.clients .image a:hover {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 /* Guides# */
