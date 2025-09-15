@@ -4,6 +4,11 @@
 :root {
     --primary-color: #0f1b4c;
 }
+
+html, body{
+    scroll-behavior: smooth;
+
+}
 html {
     font-size: 62.5%;
 }
@@ -45,7 +50,7 @@ a {
     position: sticky;
     z-index: 1;
     top: -26px;
-    background-color:#e6f0ff ;
+    background-color: #e6f0ff;
 }
 /* Header fixed */
 .navbar {
@@ -229,7 +234,7 @@ a {
 /* Featured# */
 .featured {
     margin-top: 4.1rem;
-    padding: 5rem 0;
+    padding: 110px 0;
     background: #f5fafe;
 }
 .featured .sub-title {
