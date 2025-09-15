@@ -5,9 +5,9 @@
     --primary-color: #0f1b4c;
 }
 
-html, body{
+html,
+body {
     scroll-behavior: smooth;
-
 }
 html {
     font-size: 62.5%;
@@ -82,6 +82,8 @@ a {
     margin-right: 1.8rem;
 }
 .hero-wrap {
+    display: flex;
+    align-items: center;
     background-color: #e6f0ff;
     height: calc(100vh - 90px);
     position: relative;
@@ -92,27 +94,24 @@ a {
 }
 
 /* Hero */
-.hero {
-    padding-top: 130px;
-}
-.hero .info {
+.hero-wrap .info {
     width: 51%;
 }
-.hero .sub-title {
+.hero-wrap .sub-title {
     color: #687690;
     font-size: 1.8rem;
     font-weight: 400;
     list-style: 1.5;
     letter-spacing: 0.01em;
 }
-.hero .title {
+.hero-wrap .title {
     color: #000336;
     font-size: 6.2rem;
     font-weight: 650;
     line-height: 1.19; /* 118.75% */
     margin-top: 0.8rem;
 }
-.hero .desc {
+.hero-wrap .desc {
     color: #5a6473;
     font-size: 1.8rem;
     font-weight: 400;
